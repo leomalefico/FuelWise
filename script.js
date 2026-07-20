@@ -3,6 +3,7 @@ const themeToggle = document.getElementById('themeToggle');
 const sunIcon = themeToggle.querySelector('.sun');
 const moonIcon = themeToggle.querySelector('.moon');
 
+
 function setTheme(theme) {
     const isLight = theme === 'light';
     document.body.classList.toggle('light-mode', isLight);
